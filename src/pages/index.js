@@ -1,12 +1,14 @@
 import React from 'react'
-import Layout from '../components/Layout/Layout';
+import Layout from '../components/Layout/Layout'
+import Home from '../components/Sections/Home'
 
- function Home() {
+function App() {
   return (
     <Layout>
-      Hello world!
+      <Home />
+      <div style={{ height: '1000px', background: 'blue' }}></div>
     </Layout>
   )
-};
+}
 
-export default Home;
+export default App
