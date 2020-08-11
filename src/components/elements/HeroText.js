@@ -7,7 +7,6 @@ const HeroTextStyle = styled.div`
 
   .title {
     font-size: 4rem;
-    margin-bottom: 2rem;
     &--accent {
       color: var(--clr-accent);
     }
@@ -20,10 +19,11 @@ const HeroTextStyle = styled.div`
 `
 
 const Button = styled.button`
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: 1px;
   padding: 0.9rem 2rem;
+  margin: 2rem 0;
   border-radius: 50px;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
   background-color: var(--clr-primary-light);
