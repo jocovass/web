@@ -4,7 +4,7 @@ import hero from '../../images/hero2.svg'
 
 const HeroImgStyle = styled.div`
   width: 31rem;
-  margin-top: 7rem;
+  margin-top: 5rem;
   .hero-img {
     width: 100%;
     height: auto;
