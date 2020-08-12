@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 90%;
   max-width: 1300px;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 `
 
 export const FlexWrapp = styled.div`

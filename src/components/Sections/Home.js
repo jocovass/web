@@ -9,12 +9,22 @@ import ScrollIndicator from '../elements/ScorllIndicator'
 const HomeStyle = styled.section`
   height: 100vh;
   min-height: 600px;
-  background-image: linear-gradient(
-    -165deg,
-    var(--clr-primary-light) 10%,
-    var(--clr-secondary) 85%
-  );
   position: relative;
+  overflow: hidden;
+  .gradient-bg {
+    background-image: linear-gradient(
+      to bottom,
+      var(--clr-primary-light),
+      var(--clr-secondary)
+    );
+    position: absolute;
+    top: -15%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: skewY(5deg);
+    z-index: -1;
+  }
   .content {
     display: flex;
     flex-direction: column;
@@ -28,6 +38,7 @@ function Home() {
 
   return (
     <HomeStyle ref={homeRef}>
+      <div className="gradient-bg"></div>
       <Header headerStyles={headerStyles} />
       <Container>
         <div className="content">
