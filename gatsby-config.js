@@ -44,15 +44,19 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-styled-components`,
-      // options: {
-      //   // Add any options here
-      // },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: path.join(__dirname, `src`, `images`),
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: path.join(__dirname, `src`, `content`),
       },
     },
     'gatsby-transformer-sharp',

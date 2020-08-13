@@ -4,7 +4,7 @@ import { Container, SecondaryTitle, Highlight } from '../elements/elements'
 import SkillsGroup from '../templates/SkillsGroup'
 
 const AboutStyles = styled.section`
-  margin-top: 5rem;
+  margin: 5rem 0 7rem;
   text-align: center;
   .bio {
     font-size: 1.3rem;
