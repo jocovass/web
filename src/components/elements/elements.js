@@ -14,11 +14,12 @@ export const FlexWrapp = styled.div`
 export const SecondaryTitle = styled.h2`
   font-size: 2rem;
   margin-bottom: 3rem;
+  text-align: center;
 `
 
 export const TertiaryTitle = styled.h3`
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   text-transform: capitalize;
 `
 
